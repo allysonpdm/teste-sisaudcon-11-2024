@@ -64,7 +64,6 @@ public class LoginView extends javax.swing.JFrame {
         jLabel2.setText("E-mail");
 
         fieldEmail.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        fieldEmail.setText("admin@test.com");
         fieldEmail.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 fieldEmailKeyReleased(evt);
@@ -72,7 +71,6 @@ public class LoginView extends javax.swing.JFrame {
         });
 
         fieldPassword.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        fieldPassword.setText("password");
 
         entrar.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         entrar.setText("Entrar");
